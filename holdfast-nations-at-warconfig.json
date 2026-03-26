@@ -1,0 +1,41 @@
+[
+    {
+        "DisplayName": "Config File",
+        "Category": "",
+        "Description": "What configuration file should be used when launching the server",
+        "Keywords": "",
+        "FieldName": "serverConfigFilePath",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "serverConfigFilePath",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "serverconfig_default.txt",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Log File",
+        "Category": "",
+        "Description": "The log file to write to",
+        "Keywords": "",
+        "FieldName": "logFile",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "logFile",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "logs_output/outputlog_server.txt",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Log Archives Directory",
+        "Category": "",
+        "Description": "Where log archives go",
+        "Keywords": "",
+        "FieldName": "logArchivesDirectory",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "logArchivesDirectory",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "logs_archive/",
+        "EnumValues": {}
+    }
+]
