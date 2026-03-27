@@ -1,0 +1,25 @@
+[
+    {
+        "UpdateStageName": "Fetch from Steam",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "1424230",
+        "UpdateSourceArgs": "589290",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Linux",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copy example config",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "/opt/holdfastserver/serverconfig_amp.txt",
+        "UpdateSourceArgs": "/opt/holdfastserver/serverconfig_default.txt",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    }
+]
