@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "DisplayName": "Holdfast Configuration File",
+        "Category": "Server Settings",
+        "Description": "Controls game modes, map options and other settings.",
+        "Keywords": "holdfast,configuration,file",
+        "FieldName": "serverConfigFilePath",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "serverConfigFilePath",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "serverconfig_default.txt",
+        "Placeholder": "serverconfig_default.txt",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
