@@ -1,6 +1,11 @@
 [
     {
-        "ConfigFile": "/opt/holdfastserver/serverconfig_amp.txt",
+        "ConfigFile": "holdfast/1424230/serverconfig_default.txt",
+        "ConfigType": "",
+        "AutoMap": false
+    },
+    {
+        "ConfigFile": "holdfast/1424230/serverconfig_frontlines_default.txt",
         "ConfigType": "",
         "AutoMap": false
     }

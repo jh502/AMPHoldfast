@@ -10,16 +10,5 @@
         "ForceDownloadPlatform": "Linux",
         "DeleteAfterExtract": true,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "Copy example config",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "/opt/holdfastserver/serverconfig_amp.txt",
-        "UpdateSourceArgs": "/opt/holdfastserver/serverconfig_default.txt",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": false,
-        "OneShot": false
     }
 ]
